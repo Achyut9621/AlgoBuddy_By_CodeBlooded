@@ -1,0 +1,59 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - thanks
+  - deny
+  - ask_array_basics
+  - ask_array_insertion
+  - ask_array_deletion
+  - ask_array_traversal
+  - ask_array_sorting
+  - ask_array_searching
+  - ask_linkedlist_basics
+  - ask_linkedlist_insertion
+  - ask_linkedlist_deletion
+  - ask_linkedlist_traversal
+  - ask_linkedlist_doubly
+  - ask_linkedlist_circular
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you with data structures today?"
+  utter_goodbye:
+    - text: "Goodbye! Feel free to ask if you need more help."
+  utter_thanks:
+    - text: "You're welcome!"
+  utter_deny:
+    - text: "Okay, let me know if you have any other questions."
+
+  utter_ask_array_basics:
+    - text: "An array is a collection of items stored at contiguous memory locations."
+  utter_ask_array_insertion:
+    - text: "To insert an element in an array, you typically shift subsequent elements and place the new element in the desired position."
+  utter_ask_array_deletion:
+    - text: "To delete an element from an array, you shift subsequent elements to overwrite the deleted element."
+  utter_ask_array_traversal:
+    - text: "Traversing an array means accessing each element one by one."
+  utter_ask_array_sorting:
+    - text: "Common sorting algorithms for arrays include Bubble Sort, Selection Sort, and Quick Sort."
+  utter_ask_array_searching:
+    - text: "Searching in arrays can be done using Linear Search or Binary Search (if the array is sorted)."
+
+  utter_ask_linkedlist_basics:
+    - text: "A linked list is a linear data structure where elements are stored in nodes, and each node points to the next node."
+  utter_ask_linkedlist_insertion:
+    - text: "Insertion in a linked list involves creating a new node and adjusting pointers accordingly."
+  utter_ask_linkedlist_deletion:
+    - text: "Deleting a node from a linked list requires adjusting the pointers to exclude the node."
+  utter_ask_linkedlist_traversal:
+    - text: "Traversing a linked list means visiting each node starting from the head until the end."
+  utter_ask_linkedlist_doubly:
+    - text: "A doubly linked list is a linked list where each node points to both its previous and next nodes."
+  utter_ask_linkedlist_circular:
+    - text: "A circular linked list is a linked list where the last node points back to the first node, forming a circle."
+
+actions:
+  - action_fetch_array_info
+  - action_fetch_linkedlist_info

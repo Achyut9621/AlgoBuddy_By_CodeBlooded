@@ -1,0 +1,33 @@
+{
+  "name": "dsa_frontend",
+  "version": "0.1.0",
+  "homepage": ".",
+  "private": true,
+  "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
+    "ajv": "^8.18.0",
+    "ajv-keywords": "^5.1.0",
+    "axios": "^1.12.2",
+    "framer-motion": "^12.23.15",
+    "lucide-react": "^0.544.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.6.0",
+    "react-markdown": "^8.0.7",
+    "react-router-dom": "^6.30.3",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.3.3",
+    "vite": "^7.1.1"
+  }
+}
